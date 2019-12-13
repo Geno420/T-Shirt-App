@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TshirtApp.ORDERVIEW">
+    <ContentPage.Content>
+
+        <StackLayout>
+
+            <ListView ItemsSource="{Binding TShirtOrders}" HasUnevenRows="True" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Grid Margin="5">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                        <RowDefinition Height="*" />
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Text="Name" FontAttributes="Bold" Grid.Row="0" Grid.Column="0"/>
+                                    <Label Text="{Binding Name}"  Grid.Row="1" Grid.Column="0"/>
+                                    <Label Text="Size" FontAttributes="Bold" Grid.Row="0" Grid.Column="1"/>
+                                    <Label Text="{Binding Size}" Grid.Row="1" Grid.Column="1" />
+                                    <Label Text="ShippingAddress" FontAttributes="Bold" Grid.Row="0" Grid.Column="2"/>
+                                    <Label Text="{Binding ShippingAddress}"  Grid.Row="1" Grid.Column="2"/>
+                                </Grid>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button
+             Text="CONFIRM ORDERS"
+             Clicked="OnConfirmOrderClicked"
+            ></Button>
+        </StackLayout>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

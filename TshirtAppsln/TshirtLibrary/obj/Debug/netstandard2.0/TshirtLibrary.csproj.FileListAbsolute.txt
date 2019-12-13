@@ -1,0 +1,8 @@
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\bin\Debug\netstandard2.0\TshirtLibrary.deps.json
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\bin\Debug\netstandard2.0\TshirtLibrary.dll
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\bin\Debug\netstandard2.0\TshirtLibrary.pdb
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\obj\Debug\netstandard2.0\TshirtLibrary.csprojAssemblyReference.cache
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\obj\Debug\netstandard2.0\TshirtLibrary.AssemblyInfoInputs.cache
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\obj\Debug\netstandard2.0\TshirtLibrary.AssemblyInfo.cs
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\obj\Debug\netstandard2.0\TshirtLibrary.dll
+D:\TshirtApp\TshirtApp\TshirtAppsln\TshirtLibrary\obj\Debug\netstandard2.0\TshirtLibrary.pdb
